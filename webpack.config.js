@@ -4,14 +4,14 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const sveltePreprocess = require("svelte-preprocess");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const ENTRYPOINTS = ["about"];
+const ENTRYPOINTS = ["404", "index"];
 
 const capitalize = (s) => s[0].toUpperCase() + s.slice(1);
 
 module.exports = {
   mode: "development",
   entry: Object.fromEntries(
-    ENTRYPOINTS.map((entry) => [`${entry}`, `./src/${entry}.ts`]),
+    ENTRYPOINTS.map((entry) => [`${entry}`, `./src/${entry}/index.ts`]),
   ),
   plugins: ENTRYPOINTS.map(
     (entry) =>
@@ -91,11 +91,8 @@ module.exports = {
   },
 
   output: {
-    filename: (pathData) =>
-      pathData.runtime === "serviceWorker"
-        ? "[name].js"
-        : "[name]-[fullhash].js",
-    path: path.resolve(__dirname, "dist/frontend"),
+    filename: "[name]-[fullhash].js",
+    path: path.resolve(__dirname, "dist"),
     publicPath: "/",
     clean: true,
   },
@@ -106,7 +103,7 @@ module.exports = {
       watch: true,
     },
     historyApiFallback: {
-      index: "notFound.html",
+      index: "404.html",
       verbose: true,
       rewrites: ENTRYPOINTS.map((entry) => ({
         from: new RegExp(`^\/${entry}(\/.*)?$`), // Updated regex pattern to match the specific entry point path

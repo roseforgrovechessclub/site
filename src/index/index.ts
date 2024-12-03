@@ -1,7 +1,7 @@
-import About from './About.svelte';
 import { mount } from "svelte"
+import Index from './Index.svelte';
 
-const app = mount(About, {
+const app = mount(Index, {
   target: document.body,
 });
 
