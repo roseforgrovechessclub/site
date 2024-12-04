@@ -136,3 +136,14 @@
     when requested to remove data by a former member.
   </p>
 </article>
+
+<style lang="scss">
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+  }
+</style>

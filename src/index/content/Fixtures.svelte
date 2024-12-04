@@ -3,7 +3,7 @@
 </script>
 
 <article>
-  <h2>Fixtures</h2>
+  <h2>Fixtures & Results</h2>
   <table>
     <thead>
       <tr>
@@ -26,16 +26,24 @@
 
 <style lang="scss">
   article {
+    margin: 0 auto;
+    flex: 1;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    td,
-    th {
-      padding: 0.5rem;
-      text-wrap: nowrap;
-    }
-    tr {
-      &:nth-child(even) {
-        background-color: #f2f2f2;
+    table {
+      margin: 0 auto;
+      td,
+      th {
+        padding: 0.5rem;
+        text-wrap: nowrap;
+      }
+      tr {
+        &:nth-child(even) {
+          background-color: #f2f2f2;
+        }
       }
     }
   }

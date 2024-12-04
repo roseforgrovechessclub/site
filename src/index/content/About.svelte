@@ -57,10 +57,15 @@
 
 <style lang="scss">
   article {
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
     display: flex;
+    padding-right: 1rem;
     flex-direction: column;
     img {
       margin: 0 auto;
+      max-width: 100%;
     }
     margin: 0 auto;
   }

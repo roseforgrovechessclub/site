@@ -36,7 +36,7 @@
     body {
       font-family: "Roboto", sans-serif;
       margin: 0;
-      padding: 1rem;
+      /* padding: 1rem; */
     }
     a {
       color: #007bff;
@@ -48,7 +48,6 @@
   }
   main {
     display: flex;
-    padding: 1rem;
     gap: 1rem;
   }
 </style>

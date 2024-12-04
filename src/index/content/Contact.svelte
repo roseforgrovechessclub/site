@@ -15,7 +15,12 @@
 
 <style lang="scss">
   article {
+    max-width: 800px;
+    margin: 0 auto;
     flex: 1;
+    display: flex;
+    padding-right: 1rem;
+
     padding: 1rem;
     display: flex;
     align-items: center;
