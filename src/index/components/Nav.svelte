@@ -12,6 +12,8 @@
 
 <style lang="scss">
   ol {
+    display: flex;
+    gap: 1rem;
     list-style-type: none;
     margin: 0;
     padding: 0;

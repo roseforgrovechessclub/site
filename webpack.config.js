@@ -6,8 +6,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const ENTRYPOINTS = ["404", "index"];
 
-const capitalize = (s) => s[0].toUpperCase() + s.slice(1);
-
 module.exports = {
   mode: "development",
   entry: Object.fromEntries(
@@ -16,7 +14,7 @@ module.exports = {
   plugins: ENTRYPOINTS.map(
     (entry) =>
       new HtmlWebpackPlugin({
-        title: capitalize(entry),
+        title: "Rose Forgrove Chess Club",
         chunks: [entry],
         filename: `${entry}.html`,
       }),
