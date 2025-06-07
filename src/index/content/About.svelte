@@ -51,7 +51,7 @@
     <p>
       Email: <A href="mailto:roseforgrovechessclub@gmail.com"
         >roseforgrovechessclub@gmail.com</A
-      > or use our contact form.
+      > or use our <A href="#contact">contact form</A>.
     </p>
   </Card>
 </article>
