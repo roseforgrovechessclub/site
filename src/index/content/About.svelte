@@ -21,12 +21,17 @@
     </p>
 
     <H3>Fees</H3>
-    <p>No membership fee. Home and Saturday away games have a board fee of:</p>
+    <p>Membership fee (due 1st September)</p>
     <ul>
-      <li>Standard: £3.85</li>
-      <li>Unwaged Pensioners: £3.30</li>
-      <li>Unwaged: £2.75</li>
-      <li>Juniors (under 18): £2.20</li>
+      <li>Standard: £10.00</li>
+      <li>Juniors (under 18): £5.00</li>
+    </ul>
+    <p>Home and Saturday away games have a board fee of:</p>
+    <ul>
+      <li>Standard: £4.00</li>
+      <li>Unwaged Pensioners: £3.50</li>
+      <li>Unwaged: £3.00</li>
+      <li>Juniors (under 18): £2.00</li>
       <li>Annual Option: £99.00</li>
     </ul>
     <p><em>Cashless only — card payment via reader.</em></p>
