@@ -1,10 +1,10 @@
 <script lang="ts">
- import Hero from "../components/Hero.svelte";
- import Card from "../components/Card.svelte";
- import H2 from "../components/H2.svelte";
- import H3 from "../components/H3.svelte";
- import A from "../components/A.svelte";
- import Parochial from "../assets/parochial.jpg";
+  import Hero from "../components/Hero.svelte";
+  import Card from "../components/Card.svelte";
+  import H2 from "../components/H2.svelte";
+  import H3 from "../components/H3.svelte";
+  import A from "../components/A.svelte";
+  import Parochial from "../assets/parochial.jpg";
 </script>
 
 <article>
@@ -39,8 +39,8 @@
     <H3>Venue</H3>
     <p>
       <A
-          href="https://maps.google.com/maps?z=16&q=roundhay%2Bparochial%2Bhall%2C%2Bfitzroy%2Bdrive%2C%2Broundhay%2C%2Bleeds%2C%2Bls8%2B4ab"
-          target="_blank"
+        href="https://maps.google.com/maps?z=16&q=roundhay%2Bparochial%2Bhall%2C%2Bfitzroy%2Bdrive%2C%2Broundhay%2C%2Bleeds%2C%2Bls8%2B4ab"
+        target="_blank"
       >
         <img src={Parochial} alt="Parochial Hall" />
         Roundhay Parochial Hall<br />
@@ -50,39 +50,39 @@
     <H3>Contact</H3>
     <p>
       Email: <A href="mailto:roseforgrovechessclub@gmail.com"
-             >roseforgrovechessclub@gmail.com</A
-                                             > or use our contact form.
+        >roseforgrovechessclub@gmail.com</A
+      > or use our contact form.
     </p>
   </Card>
 </article>
 
 <style lang="scss">
- article {
-     display: flex;
-     flex-direction: column;
-     gap: 1rem;
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
-     margin: 0 auto;
-     flex: 1;
-     display: flex;
-     flex-direction: column;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 
-     img {
-         border-radius: 1rem;
-         margin-bottom: 0.5rem;
-         width: 400px;
-     }
+    img {
+      border-radius: 1rem;
+      margin-bottom: 0.5rem;
+      width: 400px;
+    }
 
-     p {
-         margin-bottom: 1rem;
-     }
+    p {
+      margin-bottom: 1rem;
+    }
 
-     ul {
-         margin-bottom: 1rem;
+    ul {
+      margin-bottom: 1rem;
 
-         li {
-             margin-bottom: 0.3rem;
-         }
-     }
- }
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
 </style>
