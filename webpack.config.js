@@ -91,7 +91,7 @@ module.exports = {
   output: {
     filename: "[name]-[fullhash].js",
     path: path.resolve(__dirname, "docs"),
-    publicPath: "/",
+    publicPath: "/roseforgrovechessclub",
     clean: true,
   },
   devServer: {
