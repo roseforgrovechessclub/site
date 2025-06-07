@@ -3,14 +3,13 @@
     <h1>Rose Forgrove Chess Club</h1>
     <p>Come join the largest chess club in leeds!</p>
     <div class="links">
-      <a href="#about" class="hero-button">Find Out More</a>
       <a href="#contact" class="hero-button">Contact Us</a>
     </div>
   </div>
 </section>
 
 <style lang="scss">
-  $primary-gradient: linear-gradient(to right, #6a11cb, rgb(219, 68, 55));
+  $primary-gradient: linear-gradient(to right, #6a11cb, #db4437);
 
   .hero {
     display: flex;
@@ -47,6 +46,7 @@
           background: white;
           text-decoration: none;
           color: #333;
+          cursor: pointer;
 
           font-weight: bold;
           border-radius: 8px;

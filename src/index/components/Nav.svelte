@@ -2,9 +2,11 @@
   import routes from "../routes.json";
   import { route } from "../store";
   import A from "./A.svelte";
+
+  let { clientHeight = $bindable() } = $props();
 </script>
 
-<nav>
+<nav bind:clientHeight>
   <ol>
     {#each routes as r}
       {@const current = r === $route}
@@ -19,7 +21,6 @@
     width: 100%;
     padding: 1rem;
     background-color: #f5f7fa; // a very light bluish-gray
-    height: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
     ol {

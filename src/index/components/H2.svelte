@@ -10,5 +10,6 @@
   h2 {
     font-size: 2rem;
     color: #db4437;
+    margin: 0;
   }
 </style>
