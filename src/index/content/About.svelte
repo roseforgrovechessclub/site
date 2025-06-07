@@ -21,7 +21,7 @@
     </p>
 
     <H3>Fees</H3>
-    <p>Membership fee (due 1st September)</p>
+    <p>Membership fees are due annually on 1st September:</p>
     <ul>
       <li>Standard: £10.00</li>
       <li>Juniors (under 18): £5.00</li>
@@ -78,10 +78,16 @@
     }
 
     ul {
+      display: block;
+      list-style: disc outside none;
+      margin: 1em 0;
+      padding: 0 0 0 40px;
+
       margin-bottom: 1rem;
 
       li {
         margin-bottom: 0.3rem;
+        display: list-item;
       }
     }
   }

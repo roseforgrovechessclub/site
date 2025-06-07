@@ -16,7 +16,7 @@ module.exports = (env) => {
   const mode = "development";
 
   console.log("Building for GitHub Pages:", githubPages);
-  
+
   return {
     mode,
     entry: Object.fromEntries(
