@@ -1,9 +1,37 @@
+<style lang="scss">
+ article {
+     margin: 0 auto;
+     flex: 1;
+     overflow: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     overflow: auto;
+
+     table {
+         margin: 0 auto;
+         td,
+         th {
+             padding: 0.5rem;
+             text-wrap: nowrap;
+         }
+         tr {
+             &:nth-child(even) {
+                 /* background-color: #f2f2f2; */
+             }
+         }
+     }
+ }
+</style>
+
 <script lang="ts">
-  import { fixtureStore } from "../store";
+ import H2 from "../components/H2.svelte";
+ import { fixtureStore } from "../store";
 </script>
 
 <article>
-  <h2>Fixtures & Results</h2>
+  <H2>Team Fixtures & Results</H2>
   <table>
     <thead>
       <tr>
@@ -24,27 +52,3 @@
   </table>
 </article>
 
-<style lang="scss">
-  article {
-    margin: 0 auto;
-    flex: 1;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    table {
-      margin: 0 auto;
-      td,
-      th {
-        padding: 0.5rem;
-        text-wrap: nowrap;
-      }
-      tr {
-        &:nth-child(even) {
-          background-color: #f2f2f2;
-        }
-      }
-    }
-  }
-</style>

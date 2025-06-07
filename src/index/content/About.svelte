@@ -1,72 +1,78 @@
 <script lang="ts">
-  import Parochial from "../assets/parochial.jpg";
+  // import Parochial from "../assets/parochial.jpg";
+  import Hero from "../components/Hero.svelte";
+  import Card from "../components/Card.svelte";
+  import H2 from "../components/H2.svelte";
+  import H3 from "../components/H3.svelte";
+  import A from "../components/A.svelte";
 </script>
 
 <article>
-  <p>
-    Rose Forgrove Chess Club, the largest chess club in Leeds, was established
-    in the 1970s. During the league season, we play in various competitions
-    organised by the <a
-      title="Leeds Chess Association"
-      href="http://www.leedschess.org/"
-      target="_blank"
-      rel="noopener">Leeds Chess Association</a
-    >
-    (Wednesdays) and the
-    <a
-      title="Yorkshire Chess Association"
-      href="http://yorkshirechess.org/"
-      target="_blank"
-      rel="noopener">Yorkshire Chess Association</a
-    > (Saturdays). Matches in the Leeds league are played with a time control of
-    G80+10, which is 80 minutes per game with a ten-second increment added after
-    each move from move one.
-  </p>
-  <p>
-    In the off-season, we run the club championship and a variety of club nights
-    and competitions.
-  </p>
-  <p>
-    There is no membership fee. There is a board fee for any game played at our
-    home venue and for away games played on a Saturday. The fee is currently
-    £3.85, with concessions for unwaged pensioners (£3.30), unwaged (£2.75) and
-    juniors under 18 (£2.20), or instead pay a yearly board fee of £99.00. The
-    club has moved to a cashless payment method and a card reader is used for
-    the collection of board fees, payment by cash is not accepted.
-  </p>
+  <Hero />
+  <Card>
+    <H2>About Us</H2>
+    <p><strong>Leeds' largest chess club</strong>, established in the 1970s.</p>
+    <p>
+      We compete during the season in leagues run by the Leeds Chess Association
+      (Wednesdays) and Yorkshire Chess Association (Saturdays).
+    </p>
+    <p>
+      In the off-season, we run club championships and internal competitions.
+    </p>
 
-  <p>
-    Our home venue is
-    <a
-      title="Google Map"
-      href="https://www.google.co.uk/maps/place/Roundhay+Evangelical+Church/@53.8368821,-1.505316,13z/data=!4m5!1m2!2m1!1sroundhay+parochial+hall,+roundhay,+Leeds,+LS8+4AB!3m1!1s0x48795b9b62b3caf5:0x18d9c3fa0bc52066"
-      target="_blank"
-      rel="noopener">Roundhay Parochial Hall</a
-    >, Fitzroy Drive, Roundhay, Leeds, LS8 4AB.
-  </p>
-  <p>
-    Contact is via the
-    <a href="#contact">Contact form</a>, or by email to
-    <a href="mailto:roseforgrovechessclub@gmail.com"
-      >roseforgrovechessclub@gmail.com</a
-    >.
-  </p>
+    <H3>Fees</H3>
+    <p>No membership fee. Home and Saturday away games have a board fee of:</p>
+    <ul>
+      <li>Standard: £3.85</li>
+      <li>Unwaged Pensioners: £3.30</li>
+      <li>Unwaged: £2.75</li>
+      <li>Juniors (under 18): £2.20</li>
+      <li>Annual Option: £99.00</li>
+    </ul>
+    <p><em>Cashless only — card payment via reader.</em></p>
 
-  <img src={Parochial} alt="Parochial Hall" />
+    <H3>Venue</H3>
+    <p>
+      <A
+        href="https://maps.google.com/maps?z=16&q=roundhay%2Bparochial%2Bhall%2C%2Bfitzroy%2Bdrive%2C%2Broundhay%2C%2Bleeds%2C%2Bls8%2B4ab"
+        target="_blank"
+      >
+        Roundhay Parochial Hall<br />
+        Fitzroy Drive, Roundhay, Leeds, LS8 4AB
+      </A>
+    </p>
+    <H3>Contact</H3>
+    <p>
+      Email: <A href="mailto:roseforgrovechessclub@gmail.com"
+        >roseforgrovechessclub@gmail.com</A
+      > or use our contact form.
+    </p>
+  </Card>
 </article>
 
 <style lang="scss">
   article {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
     margin: 0 auto;
     flex: 1;
     display: flex;
     padding-right: 1rem;
     flex-direction: column;
-    img {
-      margin: 0 auto;
-      max-width: 100%;
-    }
     margin: 0 auto;
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-bottom: 1rem;
+
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
   }
 </style>

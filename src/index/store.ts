@@ -1,22 +1,24 @@
-import { writable } from "svelte/store";
+import { derived, writable } from "svelte/store";
 import routes from "./routes.json";
 
 const HashStore = () => {
   let value = window.location.hash;
   const store = writable(value);
-  window.addEventListener("hashchange", () => {
+
+  const hashChange = () => {
     const { hash } = window.location;
 
     const route = hash.split("#")[1] || "";
 
     if (!routes.includes(route)) {
-      window.location.hash = "";
-      console.log("invalid route");
+      window.location.hash = "#about";
       return;
     }
-    console.log("hash change", hash, route);
     store.set(window.location.hash);
-  });
+  };
+
+  window.addEventListener("hashchange", hashChange);
+  hashChange();
 
   return {
     subscribe: store.subscribe,
@@ -24,6 +26,13 @@ const HashStore = () => {
 };
 
 export const hashStore = HashStore();
+
+export const route = derived(hashStore, ($hashStore) => {
+  const r =
+    routes.find((route) => $hashStore.split("#")[1] === route) || "about";
+  window.scrollTo(0, 0);
+  return r;
+});
 
 const FixtureStore = () => {
   const store = writable({ headers: [], data: [] });

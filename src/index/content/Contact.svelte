@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Card from "../components/Card.svelte";
 </script>
 
 <article>
@@ -15,7 +16,6 @@
 
 <style lang="scss">
   article {
-    max-width: 800px;
     margin: 0 auto;
     flex: 1;
     display: flex;
