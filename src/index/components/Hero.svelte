@@ -1,7 +1,10 @@
+<script >
+ import LogoWhite from "../assets/logo_white.png";
+</script>
+
 <section class="hero">
   <div class="hero-content">
-    <h1>Rose Forgrove Chess Club</h1>
-    <p>Come join the largest chess club in leeds!</p>
+    <img src={LogoWhite} alt="Rose Forgrove Chess Club Logo" />
     <div class="links">
       <a href="#contact" class="hero-button">Contact Us</a>
     </div>
@@ -15,26 +18,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 20px;
-    background: $primary-gradient;
+    padding: 1rem;
+    gap: 0.5rem;
     color: white;
+    background: $primary-gradient;
     text-align: center;
 
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 
     .hero-content {
-      max-width: 750px;
-
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-      }
+        max-width: 750px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
       .links {
         display: flex;
         justify-content: center;
