@@ -26,11 +26,13 @@ const HashStore = () => {
 };
 
 export const hashStore = HashStore();
+export const showNavFullScreen = writable(false);
 
 export const route = derived(hashStore, ($hashStore) => {
   const r =
     routes.find((route) => $hashStore.split("#")[1] === route) || "about";
   window.scrollTo(0, 0);
+  showNavFullScreen.set(false);
   return r;
 });
 
