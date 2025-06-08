@@ -14,9 +14,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/components/A.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.7.css!./src/index/components/A.svelte":
+/***/ "./src/index/components/A.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.6.css!./src/index/components/A.svelte":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/components/A.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.7.css!./src/index/components/A.svelte ***!
+  !*** ./src/index/components/A.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.6.css!./src/index/components/A.svelte ***!
   \***************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -26,9 +26,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/components/Card.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.9.css!./src/index/components/Card.svelte":
+/***/ "./src/index/components/Card.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.7.css!./src/index/components/Card.svelte":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/components/Card.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.9.css!./src/index/components/Card.svelte ***!
+  !*** ./src/index/components/Card.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.7.css!./src/index/components/Card.svelte ***!
   \************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -50,9 +50,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/components/H3.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.6.css!./src/index/components/H3.svelte":
+/***/ "./src/index/components/H3.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.9.css!./src/index/components/H3.svelte":
 /*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/components/H3.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.6.css!./src/index/components/H3.svelte ***!
+  !*** ./src/index/components/H3.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.9.css!./src/index/components/H3.svelte ***!
   \******************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -74,9 +74,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/components/Nav.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.1.css!./src/index/components/Nav.svelte":
+/***/ "./src/index/components/Nav.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.2.css!./src/index/components/Nav.svelte":
 /*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/components/Nav.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.1.css!./src/index/components/Nav.svelte ***!
+  !*** ./src/index/components/Nav.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.2.css!./src/index/components/Nav.svelte ***!
   \*********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -86,9 +86,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/content/About.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.3.css!./src/index/content/About.svelte":
+/***/ "./src/index/content/About.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.4.css!./src/index/content/About.svelte":
 /*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/content/About.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.3.css!./src/index/content/About.svelte ***!
+  !*** ./src/index/content/About.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.4.css!./src/index/content/About.svelte ***!
   \******************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -98,9 +98,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/content/Contact.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.4.css!./src/index/content/Contact.svelte":
+/***/ "./src/index/content/Contact.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.1.css!./src/index/content/Contact.svelte":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/content/Contact.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.4.css!./src/index/content/Contact.svelte ***!
+  !*** ./src/index/content/Contact.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.1.css!./src/index/content/Contact.svelte ***!
   \************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -122,9 +122,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/index/content/Privacy.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.2.css!./src/index/content/Privacy.svelte":
+/***/ "./src/index/content/Privacy.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.3.css!./src/index/content/Privacy.svelte":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./src/index/content/Privacy.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.2.css!./src/index/content/Privacy.svelte ***!
+  !*** ./src/index/content/Privacy.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.3.css!./src/index/content/Privacy.svelte ***!
   \************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -265,7 +265,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var svelte_internal_disclose_version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal/disclose-version */ "./node_modules/svelte/src/internal/disclose-version.js");
 /* harmony import */ var svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte/internal/client */ "./node_modules/svelte/src/internal/client/index.js");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte_7_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte_7_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/A.svelte.7.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.7.css!./src/index/components/A.svelte */ "./src/index/components/A.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.7.css!./src/index/components/A.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte_6_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte_6_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_A_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/A.svelte.6.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.6.css!./src/index/components/A.svelte */ "./src/index/components/A.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/A.svelte.6.css!./src/index/components/A.svelte");
 
 
 svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__.mark_module_start();
@@ -319,7 +319,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var svelte_internal_disclose_version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal/disclose-version */ "./node_modules/svelte/src/internal/disclose-version.js");
 /* harmony import */ var svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte/internal/client */ "./node_modules/svelte/src/internal/client/index.js");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte_9_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte_9_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/Card.svelte.9.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.9.css!./src/index/components/Card.svelte */ "./src/index/components/Card.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.9.css!./src/index/components/Card.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte_7_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte_7_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_Card_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/Card.svelte.7.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.7.css!./src/index/components/Card.svelte */ "./src/index/components/Card.svelte.7.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Card.svelte.7.css!./src/index/components/Card.svelte");
 
 
 svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__.mark_module_start();
@@ -403,7 +403,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var svelte_internal_disclose_version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal/disclose-version */ "./node_modules/svelte/src/internal/disclose-version.js");
 /* harmony import */ var svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte/internal/client */ "./node_modules/svelte/src/internal/client/index.js");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte_6_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte_6_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/H3.svelte.6.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.6.css!./src/index/components/H3.svelte */ "./src/index/components/H3.svelte.6.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.6.css!./src/index/components/H3.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte_9_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte_9_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_H3_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/index/components/H3.svelte.9.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.9.css!./src/index/components/H3.svelte */ "./src/index/components/H3.svelte.9.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/H3.svelte.9.css!./src/index/components/H3.svelte");
 
 
 svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__.mark_module_start();
@@ -502,7 +502,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../routes.json */ "./src/index/routes.json");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../store */ "./src/index/store.ts");
 /* harmony import */ var _A_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./A.svelte */ "./src/index/components/A.svelte");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte_1_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte_1_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/index/components/Nav.svelte.1.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.1.css!./src/index/components/Nav.svelte */ "./src/index/components/Nav.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.1.css!./src/index/components/Nav.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte_2_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte_2_css_Users_strutt_projects_roseforegrovechessclub_src_index_components_Nav_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/index/components/Nav.svelte.2.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.2.css!./src/index/components/Nav.svelte */ "./src/index/components/Nav.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/components/Nav.svelte.2.css!./src/index/components/Nav.svelte");
 
 
 svelte_internal_client__WEBPACK_IMPORTED_MODULE_1__.mark_module_start();
@@ -597,7 +597,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_H3_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/H3.svelte */ "./src/index/components/H3.svelte");
 /* harmony import */ var _components_A_svelte__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/A.svelte */ "./src/index/components/A.svelte");
 /* harmony import */ var _assets_parochial_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/parochial.jpg */ "./src/index/assets/parochial.jpg");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte_3_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte_3_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./src/index/content/About.svelte.3.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.3.css!./src/index/content/About.svelte */ "./src/index/content/About.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.3.css!./src/index/content/About.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte_4_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte_4_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_About_svelte__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./src/index/content/About.svelte.4.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.4.css!./src/index/content/About.svelte */ "./src/index/content/About.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/About.svelte.4.css!./src/index/content/About.svelte");
 
 
 
@@ -791,7 +791,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal_disclose_version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal/disclose-version */ "./node_modules/svelte/src/internal/disclose-version.js");
 /* harmony import */ var svelte_internal_flags_legacy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte/internal/flags/legacy */ "./node_modules/svelte/src/internal/flags/legacy.js");
 /* harmony import */ var svelte_internal_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! svelte/internal/client */ "./node_modules/svelte/src/internal/client/index.js");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte_4_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte_4_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/index/content/Contact.svelte.4.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.4.css!./src/index/content/Contact.svelte */ "./src/index/content/Contact.svelte.4.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.4.css!./src/index/content/Contact.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte_1_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte_1_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_Contact_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/index/content/Contact.svelte.1.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.1.css!./src/index/content/Contact.svelte */ "./src/index/content/Contact.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Contact.svelte.1.css!./src/index/content/Contact.svelte");
 
 
 
@@ -950,7 +950,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Card_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Card.svelte */ "./src/index/components/Card.svelte");
 /* harmony import */ var _components_H2_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/H2.svelte */ "./src/index/components/H2.svelte");
 /* harmony import */ var _components_H3_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/H3.svelte */ "./src/index/components/H3.svelte");
-/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte_2_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte_2_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/index/content/Privacy.svelte.2.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.2.css!./src/index/content/Privacy.svelte */ "./src/index/content/Privacy.svelte.2.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.2.css!./src/index/content/Privacy.svelte");
+/* harmony import */ var _Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte_3_css_svelte_loader_cssPath_Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte_3_css_Users_strutt_projects_roseforegrovechessclub_src_index_content_Privacy_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/index/content/Privacy.svelte.3.css!=!svelte-loader?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.3.css!./src/index/content/Privacy.svelte */ "./src/index/content/Privacy.svelte.3.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/strutt/projects/roseforegrovechessclub/src/index/content/Privacy.svelte.3.css!./src/index/content/Privacy.svelte");
 
 
 
@@ -15562,4 +15562,4 @@ const app = (0,svelte__WEBPACK_IMPORTED_MODULE_0__.mount)(_Index_svelte__WEBPACK
 
 /******/ })()
 ;
-//# sourceMappingURL=index-4889b46dc2db26658a23.js.map
+//# sourceMappingURL=index-66fad1688ed66dfdf472.js.map
