@@ -1,7 +1,3 @@
-<script lang="ts">
-  import Card from "../components/Card.svelte";
-</script>
-
 <article>
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSe-7ZypPtQY1HkcYZU0eIWMZWfagmq_SipY6nFPoIrivI3qQA/viewform?embedded=true"
@@ -10,8 +6,7 @@
     height="800px"
     frameborder="0"
     marginheight="0"
-    marginwidth="0">Loading…</iframe
-  >
+    marginwidth="0">Loading…</iframe>
 </article>
 
 <style lang="scss">
@@ -20,7 +15,7 @@
     flex: 1;
     display: flex;
     padding-right: 1rem;
-
+    max-width: 100%;
     padding: 1rem;
     display: flex;
     align-items: center;
