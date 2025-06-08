@@ -12,8 +12,8 @@ module.exports = (env) => {
   const outputPath = githubPages
     ? path.resolve("docs")
     : path.resolve(__dirname, "dist");
-  // const publicPath = githubPages ? "/roseforgrovechessclub/" : "/";
-  const publicPath = "/";
+  const publicPath = githubPages ? "/roseforgrovechessclub/" : "/";
+  // const publicPath = "/";
   const mode = "development";
 
   console.log("Building for GitHub Pages:", githubPages);
