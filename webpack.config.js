@@ -7,16 +7,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ENTRYPOINTS = ["404", "index"];
 
 module.exports = (env) => {
-  const githubPages = env?.githubPages === "true" || false;
-
-  const outputPath = githubPages
-    ? path.resolve("docs")
-    : path.resolve(__dirname, "dist");
-  const publicPath = githubPages ? "/roseforgrovechessclub/" : "/";
-  // const publicPath = "/";
-  const mode = "development";
-
-  console.log("Building for GitHub Pages:", githubPages);
+  const outputPath = path.resolve("docs");
+  const publicPath = "/";
+  const mode = env.WEBPACK_SERVE ? "development" : "production";
 
   return {
     mode,
