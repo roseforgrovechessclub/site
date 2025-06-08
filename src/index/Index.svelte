@@ -3,9 +3,10 @@
   import Privacy from "./content/Privacy.svelte";
   import About from "./content/About.svelte";
   import Contact from "./content/Contact.svelte";
-  import Fixtures from "./content/Fixtures.svelte";
-
+  import LeagueFixtures from "./content/LeagueFixtures.svelte";
+  import ClubWinners from "./content/ClubWinners.svelte";
   import { route } from "./store";
+
   let navHeight = $state(0);
 </script>
 
@@ -15,8 +16,10 @@
     <Privacy />
   {:else if $route == "contact"}
     <Contact />
-  {:else if $route == "fixtures"}
-    <Fixtures />
+  {:else if $route == "leagueFixtures"}
+    <LeagueFixtures />
+  {:else if $route == "clubWinners"}
+    <ClubWinners />
   {:else}
     <About />
   {/if}

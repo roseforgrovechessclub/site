@@ -61,3 +61,90 @@ const FixtureStore = () => {
 };
 
 export const fixtureStore = FixtureStore();
+
+type ClubWinnersTableItem = {
+  year: string;
+  player: string;
+  score: string;
+};
+
+const ClubWinnersStore = () => {
+  const store = writable({});
+
+  const init = async () => {
+    const apiKey = "AIzaSyA2kPtNMDAIOTQ_P5Z53cAyV_Q77R9EVMI";
+    const spreadsheetId = "11xBoHV33kT55D3jOD1VGYntsGXmPzhuw2ttYLvi-IfM";
+    const sheetName = "Sheet1";
+
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${sheetName}?key=${apiKey}`;
+
+    const res = await fetch(url);
+    const resData = await res.json();
+    const data: Array<Array<string>> = resData.values || [];
+
+    const categories = data.splice(0, 1);
+    const categoryCols = Object.fromEntries(
+      categories[0]
+        .map((h, i) => [h, i])
+        .filter(([h, i]) => typeof h === "string" && h?.trim()),
+    );
+
+    let cat: string | null = null;
+    const columnsByCategory: Array<string> = [];
+    categories[0].forEach((cell) => {
+      if (cell) {
+        cat = cell;
+      }
+      if (cat) columnsByCategory.push(cat);
+    });
+
+    const dataByCategory: { [key: string]: Array<Array<string>> } = {};
+
+    data.forEach((row, rowIndex) => {
+      Object.keys(categoryCols).forEach((cat) => {
+        if (!dataByCategory[cat]) {
+          dataByCategory[cat] = [];
+        }
+        dataByCategory[cat].push([]);
+      });
+      row.forEach((cell, colIndex) => {
+        const cat =
+          colIndex < columnsByCategory.length
+            ? columnsByCategory[colIndex]
+            : columnsByCategory.at(-1);
+        if (cat) dataByCategory[cat][rowIndex].push(cell);
+      });
+    });
+    const tableDataByCategory: {
+      [key: string]: { [key: string]: Array<ClubWinnersTableItem> };
+    } = {};
+    Object.entries(dataByCategory).forEach(([cat, subData]) => {
+      if (!tableDataByCategory[cat]) {
+        tableDataByCategory[cat] = {};
+      }
+
+      let title: string | null = null;
+      subData.forEach((row, j) => {
+        if (!row.find((cell) => cell.trim())) {
+          title = null;
+        } else if (title === null) {
+          title = row[0];
+        } else {
+          if (!tableDataByCategory[cat][title]) {
+            tableDataByCategory[cat][title] = [];
+          }
+          tableDataByCategory[cat][title].push({
+            year: row[0],
+            player: row[1],
+            score: row[2],
+          });
+        }
+      });
+    });
+    store.set(tableDataByCategory);
+  };
+  init();
+  return { subscribe: store.subscribe };
+};
+
+export const clubWinnersStore = ClubWinnersStore();

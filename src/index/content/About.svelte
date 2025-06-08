@@ -17,7 +17,7 @@
       (Wednesdays) and Yorkshire Chess Association (Saturdays).
     </p>
     <p>
-      In the off-season, we run club championships and internal competitions.
+      In the off-season, we run club championships and internal competitions on Wednesday evenings at 7pm.
     </p>
 
     <H3>Fees</H3>

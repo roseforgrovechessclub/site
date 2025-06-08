@@ -4,13 +4,16 @@
   import A from "./A.svelte";
 
   let { clientHeight = $bindable() } = $props();
+
+  const toTitle = (r) => r.split(/(?=[A-Z])/).join(" ");
 </script>
 
 <nav bind:clientHeight>
   <ol>
     {#each routes as r}
       {@const current = r === $route}
-      <li><A href="#{r}"><span class:current>{r}</span></A></li>
+      {@const title = toTitle(r)}
+      <li><A href="#{r}"><span class:current>{title}</span></A></li>
     {/each}
   </ol>
 </nav>

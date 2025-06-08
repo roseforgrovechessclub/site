@@ -1,5 +1,5 @@
-<script >
- import LogoWhite from "../assets/logo_white.png";
+<script>
+  import LogoWhite from "../assets/logo_white.png";
 </script>
 
 <section class="hero">
@@ -28,11 +28,11 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 
     .hero-content {
-        max-width: 750px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+      max-width: 750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
       .links {
         display: flex;
         justify-content: center;

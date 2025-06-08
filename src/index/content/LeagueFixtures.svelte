@@ -43,11 +43,6 @@
         padding: 0.5rem;
         text-wrap: nowrap;
       }
-      tr {
-        &:nth-child(even) {
-          /* background-color: #f2f2f2; */
-        }
-      }
     }
   }
 </style>
