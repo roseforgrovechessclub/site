@@ -120,31 +120,35 @@ article.svelte-zvvg42 p:where(.svelte-zvvg42) {
   margin-bottom: 1rem;
 }
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUHJpdmFjeS5zdmVsdGUiLCJtYXBwaW5ncyI6IkFBc0prQiIsIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZXMiOlsiUHJpdmFjeS5zdmVsdGUiXX0=*/
-.hero.svelte-1trllpf {
+.hero.svelte-1f9sqhf {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  gap: 0.5rem;
   color: white;
   background: linear-gradient(to right, #6a11cb, #db4437);
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-.hero.svelte-1trllpf .hero-content:where(.svelte-1trllpf) {
+.hero.svelte-1f9sqhf .hero-content:where(.svelte-1f9sqhf) {
   max-width: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
-.hero.svelte-1trllpf .hero-content:where(.svelte-1trllpf) .links:where(.svelte-1trllpf) {
+.hero.svelte-1f9sqhf .hero-content:where(.svelte-1f9sqhf) img:where(.svelte-1f9sqhf) {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+.hero.svelte-1f9sqhf .hero-content:where(.svelte-1f9sqhf) .links:where(.svelte-1f9sqhf) {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.hero.svelte-1trllpf .hero-content:where(.svelte-1trllpf) .links:where(.svelte-1trllpf) a:where(.svelte-1trllpf) {
+.hero.svelte-1f9sqhf .hero-content:where(.svelte-1f9sqhf) .links:where(.svelte-1f9sqhf) a:where(.svelte-1f9sqhf) {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background: white;
@@ -155,7 +159,7 @@ article.svelte-zvvg42 p:where(.svelte-zvvg42) {
   border-radius: 8px;
   transition: background 0.3s ease;
 }
-.hero.svelte-1trllpf .hero-content:where(.svelte-1trllpf) .links:where(.svelte-1trllpf) a:where(.svelte-1trllpf):hover {
+.hero.svelte-1f9sqhf .hero-content:where(.svelte-1f9sqhf) .links:where(.svelte-1f9sqhf) a:where(.svelte-1f9sqhf):hover {
   background: #e2e8f0;
 }
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGVyby5zdmVsdGUiLCJtYXBwaW5ncyI6IkFBYWtCIiwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlcyI6WyJIZXJvLnN2ZWx0ZSJdfQ==*/
@@ -333,4 +337,4 @@ main.svelte-lfen1z {
 }
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSW5kZXguc3ZlbHRlIiwibWFwcGluZ3MiOiJBQTJCa0IiLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIkluZGV4LnN2ZWx0ZSJdfQ==*/
 
-/*# sourceMappingURL=index-f27a2c469201184db900.css.map*/
+/*# sourceMappingURL=index-ecc5374f1e94e370ee47.css.map*/

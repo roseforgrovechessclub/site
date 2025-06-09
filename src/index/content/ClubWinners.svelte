@@ -4,7 +4,7 @@
   import H3 from "../components/H3.svelte";
   import { clubWinnersStore } from "../store";
 
-  const exceptionSet = new Set(["LCA", "YCA"]);
+  const exceptionSet = new Set(["LCA", "YCA", "RFCC"]);
   const toTitleCase = (str) =>
     str?.toLowerCase().replace(/\b[A-Za-z][A-Za-z']*/g, (word) => {
       const upperWord = word.toUpperCase();

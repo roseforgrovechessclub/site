@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    gap: 0.5rem;
     color: white;
     background: $primary-gradient;
     text-align: center;
@@ -32,7 +31,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1rem;
+      gap: 2rem;
+
+      img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+      }
+
       .links {
         display: flex;
         justify-content: center;
